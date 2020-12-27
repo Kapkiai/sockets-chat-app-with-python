@@ -74,6 +74,7 @@ while True:
     # This is a blocking call, code execution will "wait" here and "get" notified in case any action should be taken
     read_sockets, _, exception_sockets = select.select(
         sockets_list, [], sockets_list)
+    
 
     # Iterate over notified sockets
     for notified_socket in read_sockets:
