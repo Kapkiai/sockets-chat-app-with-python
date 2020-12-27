@@ -15,6 +15,7 @@ Port = 1237
 client.connect((IP_address, Port))
 client.send(bytes(username, 'utf-8'))
 client.setblocking(False)
+
 # while True:
 
 #     # maintains a list of possible input streams

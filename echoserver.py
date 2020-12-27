@@ -66,6 +66,7 @@ def clientthread(conn, addr):
             continue
 
 
+
 """Using the below function, we broadcast the message to all  
 clients who's object is not the same as the one sending  
 the message """
